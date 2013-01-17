@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26708ACA16A7789400B7A8B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26708AC916A7789400B7A8B5 /* Cocoa.framework */; };
+		26708AD416A7789400B7A8B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26708AD216A7789400B7A8B5 /* InfoPlist.strings */; };
+		26708AD616A7789400B7A8B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26708AD516A7789400B7A8B5 /* main.m */; };
+		26708ADA16A7789400B7A8B5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 26708AD816A7789400B7A8B5 /* Credits.rtf */; };
+		26708ADD16A7789400B7A8B5 /* ALMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26708ADC16A7789400B7A8B5 /* ALMAppDelegate.m */; };
+		26708AE016A7789400B7A8B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26708ADE16A7789400B7A8B5 /* MainMenu.xib */; };
+		26708AE816A778DA00B7A8B5 /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 26708AE716A778DA00B7A8B5 /* parseCSV.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26708AC516A7789400B7A8B5 /* CSVPListConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSVPListConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26708AC916A7789400B7A8B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		26708ACC16A7789400B7A8B5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		26708ACD16A7789400B7A8B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		26708ACE16A7789400B7A8B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26708AD116A7789400B7A8B5 /* CSVPListConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSVPListConverter-Info.plist"; sourceTree = "<group>"; };
+		26708AD316A7789400B7A8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26708AD516A7789400B7A8B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26708AD716A7789400B7A8B5 /* CSVPListConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSVPListConverter-Prefix.pch"; sourceTree = "<group>"; };
+		26708AD916A7789400B7A8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		26708ADB16A7789400B7A8B5 /* ALMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAppDelegate.h; sourceTree = "<group>"; };
+		26708ADC16A7789400B7A8B5 /* ALMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAppDelegate.m; sourceTree = "<group>"; };
+		26708ADF16A7789400B7A8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		26708AE616A778DA00B7A8B5 /* parseCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
+		26708AE716A778DA00B7A8B5 /* parseCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26708AC216A7789400B7A8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26708ACA16A7789400B7A8B5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26708ABA16A7789400B7A8B5 = {
+			isa = PBXGroup;
+			children = (
+				26708ACF16A7789400B7A8B5 /* CSVPListConverter */,
+				26708AC816A7789400B7A8B5 /* Frameworks */,
+				26708AC616A7789400B7A8B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26708AC616A7789400B7A8B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26708AC516A7789400B7A8B5 /* CSVPListConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26708AC816A7789400B7A8B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26708AC916A7789400B7A8B5 /* Cocoa.framework */,
+				26708ACB16A7789400B7A8B5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26708ACB16A7789400B7A8B5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26708ACC16A7789400B7A8B5 /* AppKit.framework */,
+				26708ACD16A7789400B7A8B5 /* CoreData.framework */,
+				26708ACE16A7789400B7A8B5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		26708ACF16A7789400B7A8B5 /* CSVPListConverter */ = {
+			isa = PBXGroup;
+			children = (
+				26708AE616A778DA00B7A8B5 /* parseCSV.h */,
+				26708AE716A778DA00B7A8B5 /* parseCSV.m */,
+				26708ADB16A7789400B7A8B5 /* ALMAppDelegate.h */,
+				26708ADC16A7789400B7A8B5 /* ALMAppDelegate.m */,
+				26708ADE16A7789400B7A8B5 /* MainMenu.xib */,
+				26708AD016A7789400B7A8B5 /* Supporting Files */,
+			);
+			path = CSVPListConverter;
+			sourceTree = "<group>";
+		};
+		26708AD016A7789400B7A8B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26708AD116A7789400B7A8B5 /* CSVPListConverter-Info.plist */,
+				26708AD216A7789400B7A8B5 /* InfoPlist.strings */,
+				26708AD516A7789400B7A8B5 /* main.m */,
+				26708AD716A7789400B7A8B5 /* CSVPListConverter-Prefix.pch */,
+				26708AD816A7789400B7A8B5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26708AC416A7789400B7A8B5 /* CSVPListConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26708AE316A7789400B7A8B5 /* Build configuration list for PBXNativeTarget "CSVPListConverter" */;
+			buildPhases = (
+				26708AC116A7789400B7A8B5 /* Sources */,
+				26708AC216A7789400B7A8B5 /* Frameworks */,
+				26708AC316A7789400B7A8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSVPListConverter;
+			productName = CSVPListConverter;
+			productReference = 26708AC516A7789400B7A8B5 /* CSVPListConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26708ABC16A7789400B7A8B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alive Mobile Pty Ltd";
+			};
+			buildConfigurationList = 26708ABF16A7789400B7A8B5 /* Build configuration list for PBXProject "CSVPListConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26708ABA16A7789400B7A8B5;
+			productRefGroup = 26708AC616A7789400B7A8B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26708AC416A7789400B7A8B5 /* CSVPListConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26708AC316A7789400B7A8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26708AD416A7789400B7A8B5 /* InfoPlist.strings in Resources */,
+				26708ADA16A7789400B7A8B5 /* Credits.rtf in Resources */,
+				26708AE016A7789400B7A8B5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26708AC116A7789400B7A8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26708AD616A7789400B7A8B5 /* main.m in Sources */,
+				26708ADD16A7789400B7A8B5 /* ALMAppDelegate.m in Sources */,
+				26708AE816A778DA00B7A8B5 /* parseCSV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26708AD216A7789400B7A8B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26708AD316A7789400B7A8B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26708AD816A7789400B7A8B5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26708AD916A7789400B7A8B5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		26708ADE16A7789400B7A8B5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26708ADF16A7789400B7A8B5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26708AE116A7789400B7A8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26708AE216A7789400B7A8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26708AE416A7789400B7A8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVPListConverter/CSVPListConverter-Prefix.pch";
+				INFOPLIST_FILE = "CSVPListConverter/CSVPListConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26708AE516A7789400B7A8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVPListConverter/CSVPListConverter-Prefix.pch";
+				INFOPLIST_FILE = "CSVPListConverter/CSVPListConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26708ABF16A7789400B7A8B5 /* Build configuration list for PBXProject "CSVPListConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26708AE116A7789400B7A8B5 /* Debug */,
+				26708AE216A7789400B7A8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26708AE316A7789400B7A8B5 /* Build configuration list for PBXNativeTarget "CSVPListConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26708AE416A7789400B7A8B5 /* Debug */,
+				26708AE516A7789400B7A8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26708ABC16A7789400B7A8B5 /* Project object */;
+}
